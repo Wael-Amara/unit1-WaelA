@@ -65,22 +65,39 @@ t.speed(100000)
 for i in range(3):
     print(i)
 
-for i in range (0):
+"""  for i in range (0):
     def equal():
         t.forward(90)
         t.left(120)
         t.forward(90)
         t.left(120)
         t.forward(90)
-    equal()
+    equal()  """
 
-def square():
+""" def square():
+    length = 5
     for i in range(60):
         for i in range(4):
-            t.forward(200)
+            t.forward(length)
             t.left(90)
+        length+=5
         t.left(5)
-square()
+square() """
+
+def star():
+    length = 5
+    for i in range(60):
+        for i in range(5):
+            t.forward(length)
+            t.left(144)
+        length+=5
+        t.left(5)
+star()
+
+
+
+
+
 
 
 
